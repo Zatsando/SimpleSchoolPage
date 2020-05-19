@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students</title>
+    <script src="studs.js"></script>
+</head>
+
+<body>
+
+    <form name="simpleForm">
+        <p>
+            <label>
+                Name: <input type="text" id="nameText" />
+            </label>
+        </p>
+        <p>
+            <label>
+                Last name: <input type="text" id="lastNameText" />
+            </label>
+        </p>
+        <p>
+            <label>
+                Course: <input type="text" id="course" />
+            </label>
+        </p>
+        <p>
+            <label>
+                Assignment: <input type="text" id="assignment" />
+            </label>
+        </p>
+        <input type="button" id="btnId" value="Click me" onclick="addUserToTable()" />
+    </form>
+    <table id="personTable">
+        <thead>
+            <tr>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Last Name
+                </th>
+                <th>
+                    Course
+                </th>
+                <th>
+                    Assignment
+                </th>
+                <th>
+                    Assignment due date
+                </th>
+            </tr>
+        </thead>
+        <td>
+        </td>
+        </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

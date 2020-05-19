@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <script src="courses.js"></script>
+</head>
+
+<body>
+    <form name="simpleForm">
+        <p>
+            <label>
+                Course: <input type="text" id="courseText" />
+            </label>
+        </p>
+        <p>
+            <label>
+                Trainer: <input type="text" id="trainerText" />
+            </label>
+        </p>
+        <p>
+            <label>
+                Number of Students: <input type="number" id="number" />
+            </label>
+        </p>
+        <p>
+            <label>
+                Assignment: <input type="text" id="assignment" />
+            </label>
+        </p>
+        <input type="button" id="btnId" value="Click me" onclick="addUserToTable()" />
+    </form>
+    <table id="personTable">
+        <thead>
+            <tr>
+                <th>
+                    Course
+                </th>
+                <th>
+                    Trainer (full name)
+                </th>
+                <th>
+                    Number of Students
+                </th>
+                <th>
+                    Assignment
+                </th>
+                <th>
+                    Assignment due date
+                </th>
+            </tr>
+        </thead>
+        <td>
+        </td>
+        </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
